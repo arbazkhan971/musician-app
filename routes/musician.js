@@ -14,6 +14,10 @@ router.get('/name', (req, res) => {
   res.status('200').send("Status: name:arbaz!");
 });
 
+// healthcheck
+router.get('/arham', (req, res) => {
+  res.status('200').send("Status: name:arham!");
+});
 
 // retrieve all musicians from data store
 router.get('/all', (req, res) => {
