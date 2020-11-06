@@ -19,6 +19,12 @@ router.get('/arham', (req, res) => {
   res.status('200').send("Status: name:arham!");
 });
 
+router.get('/megha', (req, res) => {
+  res.status('200').send("Hi megha!");
+});
+
+
+
 // retrieve all musicians from data store
 router.get('/all', (req, res) => {
   const { musician } = req.app.locals;
